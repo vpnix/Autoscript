@@ -345,6 +345,12 @@ All fields are optional. Only the fields you want to update need to be included.
 }
 ```
 
+### Download Backup
+- **URL**: `/api/backups/{filename}`
+- **Method**: `GET`
+- **Description**: Downloads a specific backup file
+- **Response**: The backup file as a binary download
+
 ## Error Handling
 
 If an error occurs, the API will return an appropriate HTTP status code along with an error message:
