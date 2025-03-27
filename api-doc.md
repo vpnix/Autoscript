@@ -103,7 +103,7 @@ All API responses follow a standard format:
 ```
 
 ### Get User Details
-- **URL**: `/api/users/{id}`
+- **URL**: `/api/users/{username}`
 - **Method**: `GET`
 - **Description**: Retrieves details for a specific user
 
@@ -131,7 +131,7 @@ All API responses follow a standard format:
 ```
 
 ### Update User
-- **URL**: `/api/users/{id}`
+- **URL**: `/api/users/{username}`
 - **Method**: `PUT` or `PATCH`
 - **Description**: Updates an existing user
 
@@ -173,7 +173,7 @@ All fields are optional. Only the fields you want to update need to be included.
 ```
 
 ### Delete User
-- **URL**: `/api/users/{id}`
+- **URL**: `/api/users/{username}`
 - **Method**: `DELETE`
 - **Description**: Deletes a user
 
@@ -190,7 +190,7 @@ All fields are optional. Only the fields you want to update need to be included.
 ```
 
 ### Extend User Expiry
-- **URL**: `/api/users/{id}/extend`
+- **URL**: `/api/users/{username}/extend`
 - **Method**: `POST`
 - **Description**: Extends a user's expiry date
 
@@ -217,7 +217,7 @@ All fields are optional. Only the fields you want to update need to be included.
 ```
 
 ### Suspend User
-- **URL**: `/api/users/{id}/suspend`
+- **URL**: `/api/users/{username}/suspend`
 - **Method**: `POST`
 - **Description**: Suspends a user account
 
@@ -236,7 +236,7 @@ All fields are optional. Only the fields you want to update need to be included.
 ```
 
 ### Unsuspend User
-- **URL**: `/api/users/{id}/unsuspend`
+- **URL**: `/api/users/{username}/unsuspend`
 - **Method**: `POST`
 - **Description**: Unsuspends a previously suspended user account
 
